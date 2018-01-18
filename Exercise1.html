@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+ 
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">   
+ <title>Forms</title>
+ <script type="text/javascript" src="exercise_1.js"></script>
+ <style>
+ div {
+	background-color:green;
+	padding:100px;
+	width:120px;
+	
+}
+ 
+button {
+	margin-bottom:20px;
+	padding:20px;
+	background-color:powderblue;
+}
+input {
+	margin-bottom:20px;
+	padding:20px;
+	background-color:powderblue;
+}
+
+select {
+	margin-bottom:20px;
+	padding:10px;
+	background-color:powderblue;
+	display:none;
+}
+
+ </style>
+ 
+ 
+ 
+ 
+ </head>
+ <body>
+ <button id="reduce" onclick="change_property(this)">Reduce</button>
+ <button id="enlarge" onclick="change_property(this)">Enlarge</button>
+ <button id="hide" onclick="change_property(this)">Hide</button>
+ <button id="show" onclick="change_property(this)">Show</button>
+ <button  id="color"  onclick="display_dropdown(this)">Change color</button>
+ <select  id="colortype" onchange="change_color(this)">
+		<option value="pink">Pink</option>
+		<option value="blue">Blue</option>
+		<option value="purple">Purple</option>
+</select>
+<div id="box">
+ 
+ </div>
+ 
+ 
+ </body>
